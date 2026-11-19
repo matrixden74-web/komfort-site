@@ -8,8 +8,7 @@ build:
   skip: false
   additionalCommands: npm run build
   artifacts:
-    ? ""
-    : ""
+    '*': /
 run:
   persistenceMount: /data
   scriptName: null
